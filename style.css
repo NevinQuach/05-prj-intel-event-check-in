@@ -274,12 +274,12 @@ button .fas {
   font-size: 14px;
 }
 
-.footer-link {
+.footer a {
   color: #64748b;
   text-decoration: none;
 }
 
-.footer-link:hover {
+.footer a:hover {
   color: #0071c5;
   text-decoration: underline;
 }
