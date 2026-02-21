@@ -19,15 +19,15 @@ form.addEventListener("submit", function (event) {
   // Increase attendence count
   count++;
 
-  // Update progress bar
-  const percentage = Math.round((count / maxCount) * 100) + "%";
-
   // Update team count
   const teamcounter = document.getElementById(team + "Count");
-  teamcounter.textContent = parseInt(teamcounter.textContent) +1;
+  teamcounter.textContent = parseInt(teamcounter.textContent) + 1;
 
   // Display welcome message
   const message = `Welcome, ${name} from ${teamname}`;
+  
+  // Update progress bar
+  const percentage = Math.round((count / maxCount) * 100) + "%";
 
   // Reset form
   form.reset();
