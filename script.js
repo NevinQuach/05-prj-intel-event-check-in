@@ -34,6 +34,8 @@ form.addEventListener("submit", function (event) {
 
   // Update progress bar
   const percentage = Math.round((count / maxCount) * 100) + "%";
+  const progressBar = document.getElementById("progressBar");
+  progressBar.style.width = percentage;
 
   // Reset form
   form.reset();
