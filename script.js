@@ -25,7 +25,7 @@ form.addEventListener("submit", function (event) {
 
   // Display welcome message
   const message = `Welcome, ${name} from ${teamname}`;
-  
+
   // Update progress bar
   const percentage = Math.round((count / maxCount) * 100) + "%";
 
